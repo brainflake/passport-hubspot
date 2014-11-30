@@ -24,11 +24,15 @@ The HubSpot authentication strategy authenticates users using a HubSpot account 
 
 #### Authenticate Requests
 
-Use `passport.authenticate()`, specifying the `'hubspot'` strategy, to authenticate requests.
+Use `passport.authenticate()`, specifying the `'hubspot'` strategy, to authenticate requests. You'll also need to provide a `portalId` and any scopes you'll need access to.
 
 For example, as route middleware in an [Express](http://expressjs.com/) application:
 
-    app.get('/auth/hubspot', passport.authenticate('hubspot'));
+    app.get('/auth/hubspot', passport.authenticate('hubspot', {
+        portalId: 62515,
+        scope: ['offline', 'contacts-ro', 'contacts-rw']
+      })
+    );
 
     app.get('/auth/hubspot/callback', function(req, res) {
         // Access tokens are returned immediately as params, which you can then store somehow.
