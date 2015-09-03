@@ -44,7 +44,7 @@ For example, as route middleware in an [Express](http://expressjs.com/) applicat
 
 ## Credits
 
-Based on the great work of [Brian Falk (@brainflake)](http://github.com/brainflake)
+Based on the great work of [Brian Falk (@brainflake)](http://github.com/brainflake) and [Jonathan K (@hijonathan)](https://github.com/hijonathan)
 
 Code based on passport-facebook by [Jared Hanson](http://github.com/jaredhanson)
 
