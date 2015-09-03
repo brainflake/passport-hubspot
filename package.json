@@ -1,27 +1,24 @@
 {
   "name": "passport-hubspot",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hubspot authentication strategy for Passport.",
-  "keywords": ["hubspot", "passport", "auth", "authentication"],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/brainflake/passport-hubspot.git"
-  },
+  "keywords": [
+    "hubspot",
+    "passport",
+    "auth",
+    "authentication"
+  ],
+  "repository": "",
   "main": "lib/passport-hubspot/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": {
-    "name": "Brian Falk",
-    "email": "falk@logicparty.org"
-  },
-  "license": "BSD",
+  "author": "Jonathan Kim (http://appcues.com)",
+  "contributors": [
+    "Brian Falk <falk@logicparty.org> (https://github.com/brainfalk)"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "passport-oauth": "~0.1.15",
-    "pkginfo": "~0.3.0"
-  },
-  "devDependencies": {
-    "vows": "0.7.0"
+    "passport-oauth2": "^1.1.2"
   }
 }
