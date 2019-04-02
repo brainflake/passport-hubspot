@@ -1,5 +1,7 @@
 # Passport-Hubspot
 
+# This repo is being depcrecated in favor of [passport-hubspot-oauth2](https://www.npmjs.com/package/passport-hubspot-oauth2) which is being actively maintained and is current with HubSpot's OAuth 2.0 implementation.
+
 [Passport](http://passportjs.org/) strategy for authenticating with [HubSpot](http://www.hubspot.com/)
 using the OAuth 2.0 API.
 
